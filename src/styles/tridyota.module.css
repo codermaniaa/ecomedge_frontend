@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Neoneon";
+    src: url("../../public/font/Neoneon.otf") format("opentype"); /* Update the path and file name */
+  }
+  
+  .fontFamily {
+    font-family: "Neoneon", sans-serif; /* Use the font-family name defined above */
+    /* Other styles for elements with the .fontFamily class */
+    font-size: 100px;
+    font-weight: 60;
+    opacity: 0.8;
+  }
+  @media screen and (max-width:800px) {
+    .fontFamily {
+      font-family: "Neoneon", sans-serif; /* Use the font-family name defined above */
+      /* Other styles for elements with the .fontFamily class */
+      font-size: 50px;
+      font-weight: 60;
+    }
+  }
